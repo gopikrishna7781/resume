@@ -1,9 +1,25 @@
 {
 	"details":{
 
-            "name":"ram",
-            "image":"image.png",
-            "phone no":"8008322972",
+            "name":"gopi",
+            "image":"nikhil.jpg",
+            "phone":"8008322972",
             "email":"gopikrishanamarri@gmail.com"
-	}
+	},
+	"education":[
+		{
+			"course":"B.Tech",
+			"college":"MIC college of Technology",
+			"percentage":"89%"
+		},
+		{
+			"course":"Intermediate",
+			"college":"Sri chaitanya"
+		},
+{
+	"course":"SSC",
+	"grade":"9.5"
+
+}
+]
 }
