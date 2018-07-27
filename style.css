@@ -1,20 +1,51 @@
 .main{
-	width: 100%;
-	background-color: WhiteSmoke;
-	display: flex;
-	
+	width: 80%;
+	background-color:lightgrey;
+	display:flex;
+	justify-content: center;
+	text-align: center;
+	box-shadow: 3px 3px 3px black;
+	margin: 1%;
+	padding: 1%;
 }
 .left{
-	width: 50%;
-	border: 2px solid peru;
-	background-color: LightGoldenRodYellow;
+	width:30%;
+	border: 3px solid white;
+	box-shadow: 3px 3px 3px black;
+	margin: 1%;
+	padding: 1%;
 }
 .right{
-	width: 30%;
-	border: 2px solid peru;
-	background-color: LightGoldenRodYellow;
+	width: 70%;
+	border: 3px solid white;
+	box-shadow: 3px 3px 3px black;
+	margin: 1%;
+	padding: 1%;
 }
 img{
-	width: 100%;
-	border: 5px solid DarkRed;
+	width: 30%;
+	border: 2px solid grey;
+	box-shadow: 5px 5px 5px black;
+	margin: 1%;
+	padding: 1%;
+}
+h1,
+h2,
+h3{
+	font-size: 45px;
+}
+@media only screen and (min-width: 320px) and (max-width: 550px){
+.main{
+	display: flex;
+	flex-wrap: wrap;
+}
+.left{
+
+}
+}
+@media only screen and (max-width: 1025px){
+.main{
+	display: flex;
+	flex-direction: colomn;
+}
 }
