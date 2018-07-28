@@ -2,24 +2,46 @@
 	"details":{
 
             "name":"gopi",
-            "image":"nikhil.jpg",
+            "image":"image1.jpg",
             "phone":"8008322972",
-            "email":"gopikrishanamarri@gmail.com"
+            "email":"gopikri shanamarri @gmail .com"
 	},
 	"education":[
 		{
-			"course":"B.Tech",
+			"course":"B.Tech[cse]",
 			"college":"MIC college of Technology",
 			"percentage":"89%"
 		},
 		{
 			"course":"Intermediate",
-			"college":"Sri chaitanya"
+			"college":"Sri chaitanya",
+			"percentage":"98%"
 		},
 {
 	"course":"SSC",
-	"grade":"9.5"
+	"college":"zpss",
+	"percentage":"9.5"
 
 }
-]
+],
+	"skills":[
+		{
+		"title":"programming languages",
+		"output":[
+			"c","c++","java","python"
+
+		]
+},
+{
+	"title":"operating systems",
+	"output":[
+		"unix","windows"
+	]
 }
+],
+	"carrier":{
+		"co":"to associate with organozation and utilises to the growth of our company.i am here to develop my knowledge and it is helpful to our organization"
+	}
+}
+
+

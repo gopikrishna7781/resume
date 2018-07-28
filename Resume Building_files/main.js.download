@@ -13,10 +13,8 @@ loadjson("data.json",function(text){
 	let data=JSON.parse(text);
 	console.log(data);
 	basic(data.details);
-	car(data.carrier);
 	edu(data.education);
 	skill(data.skills);
-	
 })
 var main=document.querySelector(".main");
 var left=document.createElement("div");
@@ -41,15 +39,14 @@ var right=document.createElement("div");
 right.classList.add("right");
 main.appendChild(right);
 function edu(education){
-	var h1=document.createElement("h1");
-	var h=document.createElement("HR")
+	var h1=document.createElement("h2");
+	var h1=document.createElement("HR")
 	h1.textContent="Educational Details";
 	right.appendChild(h1);
-	right.appendChild(h);
 	var un=document.createElement("ul");
 	right.appendChild(un);
 	for(var i = 0;i < education.length;i++){
-		var l=document.createElement("h2");
+		var l=document.createElement("h3");
 		var l1=document.createElement("li");
 		var l2=document.createElement("li");
 		l.textContent=education[i].course;
@@ -77,17 +74,4 @@ function skill(skilldata){
 	}
 	head.appendChild(t);
 
-}
-function car(carrier){
-	var d=document.createElement("div");
-	d.classList.add("carrier");
-	right.appendChild(d);
-	var e=document.createElement("h1");
-	var f=document.createElement("HR");
-	e.textContent="Carrier Objectives";
-	d.appendChild(e);
-	var para=document.createElement("p");
-	para.textContent=carrier.co;
-	e.appendChild(para);
-	
 }
